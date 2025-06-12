@@ -2,7 +2,7 @@
 
 int main() {
 
-    // Carta 1
+    // Carta 1:
     char estado1;
     char codigoCarta1[4];
     char nomeCidade1[50];
@@ -11,7 +11,7 @@ int main() {
     float pib1;
     int pontosTuristicos1;
 
-    // Carta 2
+    // Carta 2:
     char estado2;
     char codigoCarta2[4];
     char nomeCidade2[50];
@@ -92,8 +92,6 @@ int main() {
     printf("\nÁrea: %.2f km²", area2);
     printf("\nPIB: %.2f bilhões de reais", pib2);
     printf("\nNúmero de Pontos Turísticos: %d", pontosTuristicos2);
-    
 
     return 0;
-
 }
